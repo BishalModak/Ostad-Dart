@@ -1,5 +1,6 @@
 // in async its work step by step. 1ta task complete korar ag porjonto porer task nibe na
 // when we call a method we use there 'then(value)'
+//main amra kokhono async use korbo na ba kora hoy na
 main() async {
   userAbleToVote(25).then((value){
     if(value){
